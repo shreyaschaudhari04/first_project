@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 500px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+    .head{
+        background-color: rgba(135, 228, 42, 0.877);
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 8px 8px 0px 0px;
+        padding: 10px;
+        text-align: center;
+        
+
+    }
+
+
+
+
+    .full{
+         background-color: #f2f2f2;
+      border-radius: 0px 0px 8px 8px;
+        padding: 30px 20px 30px 20px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    select,
+    textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        margin: 7px;
+    }
+
+        input[type="submit"]{
+            background-color: rgb(77, 143, 11);
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: none;
+            border-radius: 7px;
+            font-size: x-large;
+            cursor: grab;
+           
+         }
+
+         input[type="submit"]:hover{
+            background-color: rgb(38, 59, 5);
+
+         }
